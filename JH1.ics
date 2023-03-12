@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Citibank//Credit Card Repayment//EN
+BEGIN:VEVENT
+UID:20230409T000000-CCRepayment
+DTSTAMP:20230312T000000Z
+DTSTART;VALUE=DATE:20230409
+DTEND;VALUE=DATE:20230410
+SUMMARY:Citibank Credit Card Repayment Due
+DESCRIPTION:This is a reminder that your Citibank credit card repayment is due on the 9th of each month.
+RRULE:FREQ=MONTHLY;BYMONTHDAY=9
+LOCATION:Online
+END:VEVENT
+END:VCALENDAR
